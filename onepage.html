@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
     <title></title>
    <link rel="stylesheet" href="css/style.css">
@@ -12,6 +12,11 @@
     
         <header class="menu">
         <nav>
+        <div class="burger">
+            <span></span>
+            <span></span> 
+            <span></span> 
+        </div>
         <div class="logo"><img src="image/logo.png"></div>
         <ul>
             <li><a href="#">home</a></li>
@@ -114,46 +119,54 @@
             <div class="cut">
         <div class="service">
             <div class="service__icon">&#xe6af</div>
-            <div class="service__title">ui / ux design</div>
+            <div class="text"><div class="service__title">ui / ux design</div>
             <div class="service__info">Be set fourth land god darkness  make it wherein own</div>
-               </div>
+               </div>  
+                </div>
         <div class="service">
             <div class="service__icon">&#xe6ab</div>
-            <div class="service__title">web development</div>
+            <div class="text"><div class="service__title">web development</div>
             <div class="service__info">A she'd them bring void moving  third she'd kind fill</div>
         </div>
+               </div>
          <div class="service">
             <div class="service__icon">&#xe627</div>
-            <div class="service__title">app / mobile</div>
+            <div class="text"><div class="service__title">app / mobile</div>
             <div class="service__info">Dominion man second spirit he, earth they're creeping</div>
         </div>
+                </div>
          <div class="service">
             <div class="service__icon">&#xe6a4</div>
-            <div class="service__title">game design</div>
+            <div class="text"><div class="service__title">game design</div>
             <div class="service__info">Morning his saying moveth it  multiply appear life be</div>
         </div>
+                </div>
          <div class="service">
             <div class="service__icon">&#xe625</div>
-            <div class="service__title">SEO / marketing</div>
+            <div class="text"><div class="service__title">SEO / marketing</div>
             <div class="service__info">Give won't after land fill creeping  meat you, may</div>
         </div>
+                </div>
          <div class="service">
             <div class="service__icon">&#xe611</div>
-            <div class="service__title">photography</div>
+            <div class="text"><div class="service__title">photography</div>
             <div class="service__info">Creepeth one seas cattle grass  give moving saw give</div>
         </div>
+                </div>
          <div class="service">
             <div class="service__icon">&#xe6b9</div>
-            <div class="service__title">graphic design</div>
+            <div class="text"><div class="service__title">graphic design</div>
             <div class="service__info">Open, great whales air rule for,  fourth life whales</div>
         </div>
+                </div>
          <div class="service">
             <div class="service__icon">&#xe6bd</div>
-            <div class="service__title">illustrations</div>
+            <div class="text"><div class="service__title">illustrations</div>
             <div class="service__info">Whales likeness hath, man kind  for them air two won't</div>
         </div>
     </div>
    </div>
+           </div>
     <div class="testimonials">
         <div class="testimonial">
             <div class="testimonial__comment">“ Outstanding job and exceeded all expectations. It was a pleasure  to work with them on a sizable first project and am looking  forward to start the next one asap.”</div>
@@ -216,5 +229,21 @@
         </div>
        </div>
    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+
+    $('.burger').on('click', function(){
+    $('header.menu').toggleClass('active') 
+    });
+
+
+                 
+
+
+    </script>
 </body>
+
 </html>
