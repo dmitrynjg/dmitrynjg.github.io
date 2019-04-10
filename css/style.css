@@ -1005,9 +1005,9 @@ position: absolute;
    transform:translate(-200%,-50%);
     margin-left: 100%;
 }
-.project_nav .next p,.project_nav .prev p{
-display:inline-block;
-}
+   .project_nav .prev p, .project_nav .next p{
+    display:inline-block;
+    }
 .project_nav .next::after,.project_nav .prev::before{
     font-family: 'Pe-icon-7-stroke';
     position: relative;
