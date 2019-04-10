@@ -12,6 +12,12 @@
     
         <header class="menu">
         <nav>
+    
+        <div class="burger">
+            <span></span>
+            <span></span> 
+            <span></span> 
+        </div>
         <div class="logo"><img src="image/logo.png"></div>
         <ul>
             <li><a href="#">home</a></li>
@@ -38,7 +44,7 @@
         </div>
     </div>
     <form class="contact">
-&#xe622
+
         <div class="contact__form">
             <div class="group"><input placeholder="Your Name "></div>
              <div class="group"><input placeholder="Your Email"></div>
@@ -78,5 +84,13 @@
         </div>
        </div>
    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+
+    $('.burger').on('click', function(){
+    $('header.menu').toggleClass('active') 
+    });
+</script>
 </body>
 </html>

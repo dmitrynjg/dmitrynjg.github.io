@@ -12,12 +12,18 @@
     
         <header class="menu">
         <nav>
+              <div class="burger">
+            <span></span>
+            <span></span> 
+            <span></span> 
+        </div> 
         <div class="logo"><img src="image/logo.png"></div>
         <ul>
             <li><a href="#">home</a></li>
             <li><a href=#>about</a></li>       
             <li><a href="#">contanct</a></li>
         </ul>
+   
         </nav>
     </header>
      
@@ -96,5 +102,13 @@
         </div>
        </div>
    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+
+    $('.burger').on('click', function(){
+    $('header.menu').toggleClass('active') 
+    });
+
 </body>
 </html>
