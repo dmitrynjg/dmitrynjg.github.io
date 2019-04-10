@@ -1176,11 +1176,12 @@ width:30%;
     .about_me .text .about_me__desc{
     width:100%;
     }
-    .project_nav .prev font font, .project_nav .next font font{
+    .project_nav .prev, .project_nav .next{
     display:none;
     }
     .project_nav .next::after, .project_nav .prev::before{
     font-size:55px;
+       display:inline-block;
     }
        .skills .content .skillwork{
     left: 50%;
