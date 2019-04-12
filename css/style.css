@@ -1059,10 +1059,12 @@ width:30%;
 
 }
     header.menu.active .burger span:ntn-child(1){
+       position:absolute;
      transform: rotate(45deg);
     }
 
     header.menu.active .burger span:ntn-child(2){
+        position:absolute;
      transform: rotate(-45deg);
     }
 
