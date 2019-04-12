@@ -1059,11 +1059,11 @@ width:30%;
 
 }
     header.menu.active .burger span:ntn-child(1){
-    transform:rotate(45deg);
+     transform: rotate(45deg);
     }
 
     header.menu.active .burger span:ntn-child(2){
-    transform:rotate(-45deg);
+     transform: rotate(-45deg);
     }
 
     header.menu.active .burger span:ntn-child(3){
